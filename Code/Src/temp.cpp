@@ -1,5 +1,5 @@
 #include <iostream>
-#define написать1(x) std::cout << x << '\n'
+#define написать(x) std::cout << x << '\n'
 #define написать2(x1, x2) std::cout << x1 << x2 << '\n'
 #define главная int main
 #define вернуть return
@@ -11,7 +11,8 @@
   число в = 0;
   спросить(в);
 
-  написать1(в);
+  написать(в);
 
   вернуть 0;
 }
+

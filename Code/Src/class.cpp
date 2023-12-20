@@ -46,7 +46,7 @@ public:
 
 int main()
 {
-  std::cout << Calculator::Substruct({3.3f, 4.4f}) << '\n';
+  std::cout << Calculator::Substruct({3.3f, 4.4f, 5.5f}) << '\n';
   std::cout << Calculator::Pow(3.3f, 4.4f);
 
   return 0;
